@@ -67,7 +67,7 @@
             <div class="card card-signin my-5">
                 {% for detail in post.details.all %}
                 <div class="card-body">
-                    <a href="{{ detail.username.profile.get_absolute_url }}"><img src="{{ detail.username.profile.image.url }}" alt="" class="rounded-circle" width="30" height="300"></a>
+                    <a href="{{ detail.username.profile.get_absolute_url }}"><img src="{{ detail.username.profile.image.url }}" alt="" class="rounded-circle" width="30" height="30"></a>
                     <a href="{{ detail.username.profile.get_absolute_url }}" class="text-dark"><b>{{ detail.username }}</b></a>
                     <br><small>{{ detail.commen_date }}</small>
                     <br><br>
